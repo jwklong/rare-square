@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+
+        <meta content="Rare Square" property="og:title" />
+        <meta content="Test your luck by getting the rarest square!" property="og:description" />
+        <meta content="https://rare-square.jwklong.repl.co" property="og:url" />
+        <meta content="#cceeff" data-react-helmet="true" name="theme-color" />
+        <meta property="og:image" content="https://rare-square.jwklong.repl.co/favicon.png" />
+  </head>
+  <body>
+  		<div id="squareinfo">
+        <span id="squarename">Square</span>
+        <img src="award.png" class="award"></img><br>
+        <span id="squarerarity">1/1</span>
+      </div>
+      <div class="button" id="regenbutton">Regenerate</div>
+      <div class="button" id="autobutton">Toggle Auto</div>
+      <div id="sidebar">
+        <div id="info">
+          <h1>Extra Info</h1>
+          <h2>Tries: <span id="tries">0</span></h2>
+          <h2>Average RNG: <span id="averagerng">1/1</span></h2>
+        </div>
+        <div id="previews"></div>
+        <div id="opensidebar">+</div>
+      </div>
+      <div id="square"></div>
+  </body> 
+  <script src="script.js"></script>
+</html>
